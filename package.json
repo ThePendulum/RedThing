@@ -1,6 +1,6 @@
 {
   "name": "redthing",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A RedGIFs autoplayer",
   "main": "src/app.js",
   "scripts": {
