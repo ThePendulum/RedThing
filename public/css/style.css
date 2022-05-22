@@ -2,6 +2,7 @@ html,
 body {
     margin: 0;
     height: 100%;
+    font-family: sans-serif;
 }
 
 :root {
@@ -53,4 +54,24 @@ body {
 .player {
     width: 32rem;
     height: 18rem;
+}
+
+.icon {
+    width: 2rem;
+    height: 2rem;
+}
+
+.tags {
+    padding: 0;
+    list-style: none;
+}
+
+.tag {
+    display: inline-block;
+    padding: .5rem;
+    margin: 0 .25rem 0 0;
+    background: var(--redgifs-primary);
+    color: #fff;
+    font-size: .9rem;
+    font-weight: bold;
 }
