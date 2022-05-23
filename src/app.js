@@ -25,7 +25,7 @@ async function initServer() {
 
     app.use(router);
 
-    const server = app.listen(3000, () => {
+    const server = app.listen(process.env.PORT || 3000, () => {
 	const { address, port } = server.address();
 
 	logger.info(`Web server listening on ${address}:${port}`);
